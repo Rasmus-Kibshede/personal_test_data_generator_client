@@ -1,9 +1,12 @@
-
+import PersonGenerator from '../components/PersonGenerator';
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <h1>Home</h1>
+      <PersonGenerator />
+    </>
+  );
 }
 
-export default Home
+export default Home;

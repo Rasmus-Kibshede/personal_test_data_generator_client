@@ -5,7 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material';
 
 function Layout() {
   return (
-    <div id="wrapper" className="bg-[#D6FBE4] h-screen font-main">
+    <div id="wrapper" className="bg-[#D6FBE4] h-screen">
       <ThemeProvider theme={THEME}>
         <MainMenuBar />
         <CustomizedSnackbars />
