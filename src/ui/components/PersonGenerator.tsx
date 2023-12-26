@@ -18,12 +18,13 @@ function PersonGenerator() {
 
   return (
     <>
-      <Button color="inherit" onClick={fetchPersonHandler}>
+      <Button type="button" color="inherit" onClick={fetchPersonHandler}>
         Generate Person
       </Button>
 
       {person && (
         <Box
+          id="personBox"
           paddingLeft={10}
           paddingBottom={5}
           margin={10}
