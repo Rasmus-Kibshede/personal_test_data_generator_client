@@ -22,46 +22,47 @@ function PersonGenerator() {
         Generate Person
       </Button>
 
-      <h1 className='text-red-600 bg-red-500'>KAJSFHKJSDLFHJKLSFDHLKHFSD</h1>
-      <Typography className='text-red-600 bg-red-500' variant="h4" gutterBottom>
-            Person
-          </Typography>
-
       {person && (
-        <Box className="border border-solid bg-red-600">
+        <Box
+          paddingLeft={10}
+          paddingBottom={5}
+          margin={10}
+          width={'50%'}
+          border={'solid 1px black'}
+        >
           <Typography variant="h4" gutterBottom>
             Person
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.fullname}
+            Fullname: {person.fullname}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.gender}
+            Gender: {person.gender}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.dateOfBirth}
+            Date of birth: {person.dateOfBirth}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.cpr}
+            CPR: {person.cpr}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.phoneNumber}
+            Phonenumber: {person.phoneNumber}
           </Typography>
 
           <Typography variant="h4" gutterBottom>
             Address
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.address.city}
+            City: {person.address.city}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.address.postalCode}
+            Postal code: {person.address.postalCode}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.address.street}
+            Street: {person.address.street}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            {person.address.houseNumber}
+            House number: {person.address.houseNumber}
           </Typography>
         </Box>
       )}
