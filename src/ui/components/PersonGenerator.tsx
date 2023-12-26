@@ -30,38 +30,24 @@ function PersonGenerator() {
           width={'50%'}
           border={'solid 1px black'}
         >
-          <Typography variant="h4" gutterBottom>
-            Person
-          </Typography>
-          <Typography variant="h6" gutterBottom>
-            Fullname: {person.fullname}
-          </Typography>
-          <Typography variant="h6" gutterBottom>
-            Gender: {person.gender}
-          </Typography>
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h4">Person</Typography>
+          <Typography variant="h6">Fullname: {person.fullname}</Typography>
+          <Typography variant="h6">Gender: {person.gender}</Typography>
+          <Typography variant="h6">
             Date of birth: {person.dateOfBirth}
           </Typography>
-          <Typography variant="h6" gutterBottom>
-            CPR: {person.cpr}
-          </Typography>
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6">CPR: {person.cpr}</Typography>
+          <Typography variant="h6">
             Phonenumber: {person.phoneNumber}
           </Typography>
 
-          <Typography variant="h4" gutterBottom>
-            Address
-          </Typography>
-          <Typography variant="h6" gutterBottom>
-            City: {person.address.city}
-          </Typography>
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h4">Address</Typography>
+          <Typography variant="h6">City: {person.address.city}</Typography>
+          <Typography variant="h6">
             Postal code: {person.address.postalCode}
           </Typography>
-          <Typography variant="h6" gutterBottom>
-            Street: {person.address.street}
-          </Typography>
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6">Street: {person.address.street}</Typography>
+          <Typography variant="h6">
             House number: {person.address.houseNumber}
           </Typography>
         </Box>
